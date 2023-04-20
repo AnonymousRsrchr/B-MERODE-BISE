@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MerodeExtension>
+    <ParticipantTypes>
+        <ParticipantType objectTypeId="1"/>  <!-- Manufacturer -->
+        <ParticipantType objectTypeId="77"/> <!-- Customer -->
+        <ParticipantType objectTypeId="153"/> <!-- Carrier -->
+    </ParticipantTypes>
+    <EPT>
+        <!-- EvcrManufacturer 314 -->
+        <Authorization eventId="314" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="314" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="314" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVendManufacturer 315 -->
+        <Authorization eventId="315" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="315" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="315" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVcrCustomer 316 -->
+        <Authorization eventId="316" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="316" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="316" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVendCustomer 317 -->
+        <Authorization eventId="317" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="317" participantTypeId="77" allowed="true"/> <!-- Customer -->
+        <Authorization eventId="317" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVcrCarrier 318 -->
+        <Authorization eventId="318" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="318" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="318" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVendCarrier 319 -->
+        <Authorization eventId="319" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="319" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="319" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVplaceOrder 320 -->
+        <Authorization eventId="320" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="320" participantTypeId="77" allowed="true"/> <!-- Customer -->
+        <Authorization eventId="320" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVorderReady 325 -->
+        <Authorization eventId="325" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="325" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="325" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVinvoiceOrder 330 -->
+        <Authorization eventId="330" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="330" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="330" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVrejectOrder 321 -->
+        <Authorization eventId="321" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="321" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="321" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVrequestShipment 322 -->
+        <Authorization eventId="322" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="322" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="322" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVacceptShipment 324 -->
+        <Authorization eventId="324" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="324" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="324" participantTypeId="153" allowed="true"/> <!-- Carrier -->
+        <!-- EVconfirmDelivery 329 -->
+        <Authorization eventId="329" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="329" participantTypeId="77" allowed="true"/> <!-- Customer -->
+        <Authorization eventId="329" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVpickupShipment 326 -->
+        <Authorization eventId="326" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="326" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="326" participantTypeId="153" allowed="true"/> <!-- Carrier -->
+        <!-- EVshipmentDelivered 327 -->
+        <Authorization eventId="327" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="327" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="327" participantTypeId="153" allowed="true"/> <!-- Carrier -->
+        <!-- EVinvoiceShipment 230 -->
+        <Authorization eventId="328" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="328" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="328" participantTypeId="153" allowed="true"/> <!-- Carrier -->
+        <!-- EVrejectShipment 323 -->
+        <Authorization eventId="323" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="323" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="323" participantTypeId="153" allowed="true"/> <!-- Carrier -->
+        <!-- EVpayShipmentInvoice 331 -->
+        <Authorization eventId="331" participantTypeId="1" allowed="true"/>  <!-- Manufacturer -->
+        <Authorization eventId="331" participantTypeId="77" allowed="false"/> <!-- Customer -->
+        <Authorization eventId="331" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+        <!-- EVpayOrderInvoice 332 -->
+        <Authorization eventId="332" participantTypeId="1" allowed="false"/>  <!-- Manufacturer -->
+        <Authorization eventId="332" participantTypeId="77" allowed="true"/> <!-- Customer -->
+        <Authorization eventId="332" participantTypeId="153" allowed="false"/> <!-- Carrier -->
+    </EPT>
+    <IARS>
+    </IARS>
+</MerodeExtension>

@@ -7,3 +7,6 @@ the smart contracts.
 
 ## Files
 * *blinded-case-study.pdf*: Detailed presentation and description of the case study and proposed B-MERODE model.
+* *model/model.mxp*: XML file describing the MERODE model proposed in the case study.
+* *model/model.mxpx*: XML B-MERODE extension file for the model proposed in the case study.
+* *generated/*: folder that contains the Hyperledger Fabric Chaincode generated from the .mxp and .mxpx files.
